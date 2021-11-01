@@ -1,0 +1,88 @@
+h1 {
+    color: green;
+    font-size: 24px;
+    font-family: Calibri;
+}
+
+h2 {
+    color: blue;
+    font-size: 16px;
+    font-family: Calibri Light;
+}
+
+img {
+    width: 400px;
+    height: 400px;
+    float: right;
+}
+
+p {
+    font-size: 14px;
+}
+
+ol {
+  font-size: 16px;
+}
+
+ul {
+    list-style-image: url("https://mdn.mozillademos.org/files/11981/starsolid.gif");
+}
+
+body{
+    line-height: 150%;
+}
+
+a {
+    padding-right: 2em;
+    color: blue;
+}
+
+a:hover,
+a:focus {
+    color: purple;
+    background: #fffbf0
+}
+
+input {
+    margin: 20px;
+}
+
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    border: 2px solid black;
+    background-color: lightgreen;
+    color: black;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#myform {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
+.box {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+img:not([alt]),
+ul > :not(li), ol > :not(li),
+label:not([for]),
+input:not([type]),
+center {
+    outline: 3px solid red !important;
+}
